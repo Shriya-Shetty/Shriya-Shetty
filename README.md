@@ -1,5 +1,5 @@
-<h1 align="center">🖐️ Hi, I'm Shriya — Aspiring Code Mage 🔮</h1>
-<h3 align="center">Frontend developer | Computer Vision Explorer | YOLO practitioner</h3>
+<h1 align="center">☠️ Hi, I'm Shriya — Aspiring Code Mage 🔮</h1>
+<h3 align="center">MERNSTACK Developer | Computer Vision Explorer | YOLO Practitioner </h3>
 <p align="center">"Hard work beats talent when talent doesn’t work hard." — Asta, *Black Clover*</p>
 
 ---
@@ -12,39 +12,48 @@
 
 ## 🧩 About Me
 
-🧠 I’m a 3rd-year engineering student from **KJ Somaiya College of Engineering**, specializing in:
+🧠 I’m a 3rd-year engineering student from **KJ Somaiya College of Engineering**
 
-- ✨ **Frontend Development**: Crafting clean UI with HTML, CSS, JS
-- 🔍 **Computer Vision**: Real-time object detection using **YOLOv8**
-- 💬 **Python Projects**: ML experiments, image processing & data visualization
-
-I blend creativity and code — just like a mage using logic instead of spells.
+I blend creativity and code — like a mage wielding logic instead of spells.
 
 ---
 
-## 🔬 Current Projects
+## 📜 Stack
 
-### 🧪 `Plastic_Bottle_Detection`
-> *“Rebirth” – My journey into real-time object detection begins.*  
-YOLOv8-based detection system built using a Roboflow-trained model. Scans video streams for plastic bottles using custom datasets.
-
-### 💾 `C-programming`
-> *“Confession” – Where it all began.*  
-Fundamental C programs and logic building — my first steps in the world of programming.
+- HTML, CSS, JavaScript  
+- MongoDB, SQL  
+- YOLO training with dataset annotation & offline detection/classification  
+- Web scraping (Selenium, Requests, SerpAPI, BeautifulSoup)  
+- Python, C++, Java  
 
 ---
 
-## 🛠️ Languages & Tools
+## ⚔️ Episodes from the Black Grimoire
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/>
-</p>
+### Episode 01 — *Depths*
+**Life Below the Water**  
+A marine life information portal where users explore species data, watch videos, and share feedback — wrapped in a serene blue-themed interface.  
+**Tech**: HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, Apache (XAMPP)  
+
+---
+
+### Episode 02 — *Presence*
+**Attendance Management System**  
+Java-based OOP project where Admins, Teachers, and Students manage and view attendance seamlessly.  
+**Tech**: Java | OOP Concepts: Classes, Objects, Inheritance, Encapsulation | IDE: VS Code  
+
+---
+
+### Episode 03 — *Diagnosis*
+**Skin Disease Classification**  
+Web app that classifies skin diseases using a YOLOv8 classification model. Upload or use webcam for real-time predictions.  
+**Tech**: Streamlit, YOLOv8, Kaggle dataset, Database Integration, Deployed on Streamlit Cloud  
+
+---
+
+### Episode 04 — *Requiem*
+**Plastic Bottle Detection**  
+Offline YOLOv8-powered system detecting plastic bottles in images or video streams, trained with a custom Roboflow dataset.
 
 ---
 
@@ -61,24 +70,6 @@ Fundamental C programs and logic building — my first steps in the world of pro
 
 ---
 
-## 📊 Stats from My Grimoire
-
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shriya-shetty&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-</p>
-
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=shriya-shetty&show_icons=true&locale=en" alt="Stats" />
-</p>
-
-<p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shriya-shetty&" alt="GitHub Streak" />
-</p>
-
----
-
 ## 🧠 Quote I Live By
 
 > *“Surpass your limits. Right here, right now.”* — *Black Clover*
-
----
