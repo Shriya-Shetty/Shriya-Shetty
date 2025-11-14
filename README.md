@@ -56,6 +56,11 @@ Web app that classifies skin diseases using a YOLOv8 classification model. Uploa
 Offline YOLOv8-powered system detecting plastic bottles in images or video streams, trained with a custom Roboflow dataset.
 
 ---
+## 🚀 Latest Repositories
+<!--LATEST-REPOS-START-->
+Loading latest repositories...
+<!--LATEST-REPOS-END-->
+
 
 ## 🌐 Connect with Me
 
