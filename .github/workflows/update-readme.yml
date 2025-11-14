@@ -2,8 +2,8 @@ name: Update README with Latest Repos
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # runs every 6 hours
-  workflow_dispatch:        # allow manual trigger
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
 
 jobs:
   update:
@@ -13,21 +13,27 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch repos and update README
-        run: |
-          echo "Fetching latest repos..."
+      - name: Install jq
+        run: sudo apt-get install jq -y
 
-          repos=$(curl -s "https://api.github.com/users/$GITHUB_ACTOR/repos?sort=created&direction=desc" | jq -r '.[].name' | head -n 5)
+      - name: Fetch repos and update README
+        env:
+          USERNAME: ${{ github.repository_owner }}
+        run: |
+          echo "Fetching repos for $USERNAME"
+
+          # Fetch latest 5 repos
+          repos=$(curl -s "https://api.github.com/users/$USERNAME/repos?per_page=100&sort=created&direction=desc" \
+            | jq -r '.[].name' | head -n 5)
 
           echo "## 🚀 Latest Repositories" > latest.md
           echo "" >> latest.md
 
-          for repo in $repos
-          do
-            echo "- [$repo](https://github.com/$GITHUB_ACTOR/$repo)" >> latest.md
+          for repo in $repos; do
+            echo "- [$repo](https://github.com/$USERNAME/$repo)" >> latest.md
           done
 
-          # Replace block inside README
+          # Replace inside README
           sed -i '/<!--LATEST-REPOS-START-->/,/<!--LATEST-REPOS-END-->/{
             /<!--LATEST-REPOS-START-->/!{/<!--LATEST-REPOS-END-->/!d}
           }' README.md
@@ -39,5 +45,5 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add README.md
-          git commit -m "Updated list of repos" || echo "No changes"
+          git commit -m "Updated latest repos" || echo "No changes to commit"
           git push
