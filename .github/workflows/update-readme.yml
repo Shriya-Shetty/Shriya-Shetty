@@ -1,0 +1,43 @@
+name: Update README with Latest Repos
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # runs every 6 hours
+  workflow_dispatch:        # allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch repos and update README
+        run: |
+          echo "Fetching latest repos..."
+
+          repos=$(curl -s "https://api.github.com/users/$GITHUB_ACTOR/repos?sort=created&direction=desc" | jq -r '.[].name' | head -n 5)
+
+          echo "## 🚀 Latest Repositories" > latest.md
+          echo "" >> latest.md
+
+          for repo in $repos
+          do
+            echo "- [$repo](https://github.com/$GITHUB_ACTOR/$repo)" >> latest.md
+          done
+
+          # Replace block inside README
+          sed -i '/<!--LATEST-REPOS-START-->/,/<!--LATEST-REPOS-END-->/{
+            /<!--LATEST-REPOS-START-->/!{/<!--LATEST-REPOS-END-->/!d}
+          }' README.md
+
+          sed -i "/<!--LATEST-REPOS-START-->/r latest.md" README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add README.md
+          git commit -m "Updated list of repos" || echo "No changes"
+          git push
