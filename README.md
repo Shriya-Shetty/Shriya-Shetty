@@ -60,11 +60,11 @@ Offline YOLOv8-powered system detecting plastic bottles in images or video strea
 <!--LATEST-REPOS-START-->
 ## 🚀 Latest Repositories
 
+- [PocketTrip_2025](https://github.com/Shriya-Shetty/PocketTrip_2025)
 - [PocketTrip](https://github.com/Shriya-Shetty/PocketTrip)
 - [SOC-SIEM-Banking-System](https://github.com/Shriya-Shetty/SOC-SIEM-Banking-System)
 - [ThemeX](https://github.com/Shriya-Shetty/ThemeX)
 - [SIH_2025](https://github.com/Shriya-Shetty/SIH_2025)
-- [Comparative-Analysis-of-YOLO-Versions-v1-v12-on-a-Custom-Dataset](https://github.com/Shriya-Shetty/Comparative-Analysis-of-YOLO-Versions-v1-v12-on-a-Custom-Dataset)
 <!--LATEST-REPOS-END-->
 
 
