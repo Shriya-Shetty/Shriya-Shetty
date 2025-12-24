@@ -60,11 +60,11 @@ Offline YOLOv8-powered system detecting plastic bottles in images or video strea
 <!--LATEST-REPOS-START-->
 ## 🚀 Latest Repositories
 
+- [MatchMyThrift-An-AI-Thrift-Intelligence-Platform](https://github.com/Shriya-Shetty/MatchMyThrift-An-AI-Thrift-Intelligence-Platform)
 - [Isometric-Feature-Extraction](https://github.com/Shriya-Shetty/Isometric-Feature-Extraction)
 - [PocketTrip](https://github.com/Shriya-Shetty/PocketTrip)
 - [SOC-SIEM-Banking-System](https://github.com/Shriya-Shetty/SOC-SIEM-Banking-System)
 - [ThemeX](https://github.com/Shriya-Shetty/ThemeX)
-- [SIH_2025](https://github.com/Shriya-Shetty/SIH_2025)
 <!--LATEST-REPOS-END-->
 
 
