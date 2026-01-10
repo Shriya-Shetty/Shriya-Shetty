@@ -60,11 +60,11 @@ Offline YOLOv8-powered system detecting plastic bottles in images or video strea
 <!--LATEST-REPOS-START-->
 ## 🚀 Latest Repositories
 
+- [Aero-Artificial-Intelligence-AAI-Offline-Rag-Chatbot](https://github.com/Shriya-Shetty/Aero-Artificial-Intelligence-AAI-Offline-Rag-Chatbot)
 - [An-Interactive-Data-Cleaning-and-Incremental-Learning-Framework-for-Continuous-Dataset-Enhancement](https://github.com/Shriya-Shetty/An-Interactive-Data-Cleaning-and-Incremental-Learning-Framework-for-Continuous-Dataset-Enhancement)
 - [MatchMyThrift-An-AI-Thrift-Intelligence-Platform](https://github.com/Shriya-Shetty/MatchMyThrift-An-AI-Thrift-Intelligence-Platform)
 - [Isometric-Feature-Extraction](https://github.com/Shriya-Shetty/Isometric-Feature-Extraction)
 - [SOC-SIEM-Banking-System](https://github.com/Shriya-Shetty/SOC-SIEM-Banking-System)
-- [ThemeX](https://github.com/Shriya-Shetty/ThemeX)
 <!--LATEST-REPOS-END-->
 
 
